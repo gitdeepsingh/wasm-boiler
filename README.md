@@ -1,1 +1,1 @@
-# wasm-boiler
+# wasm-boiler: web-assembly
