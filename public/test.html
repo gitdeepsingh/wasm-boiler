@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <html>
+    <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script type="module">
+        WebAssembly.instantiateStreaming (fetch('math.wasm')).then(obj => {
+        var result = obj.instance.exports.square(10);
+        document.write(result);
+        })
+    </script>
+    </head>
+    </html>
+</html>

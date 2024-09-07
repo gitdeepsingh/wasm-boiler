@@ -1,0 +1,27 @@
+{
+  "name": "wasm-boiler",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "#### - Features: ##### 1. WASM is statically compiled and is bytecode, hence very fast. Has few compilation steps. ##### 2. It has very small code codebase, hence transportable. ##### 3. It is easily operable with JS. Both can interact with each other's ecosystem. ##### 4. Being low-level, other codes like C, Rust etc. can be compiled into WASM. Great to migrate legacy codebases. ##### 5. Very secure, runs on a sandbox env. Therefore by default, it has no access to the file system on your machine. We can give permissions regarding the access. ##### 6. All these features make it suitable for backend codes as well ex: blockchains (may be an alternative to docker containers later).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitdeepsingh/wasm-boiler.git"
+  },
+  "keywords": [
+    "web",
+    "assembly"
+  ],
+  "author": "gitdeepsingh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitdeepsingh/wasm-boiler/issues"
+  },
+  "homepage": "https://github.com/gitdeepsingh/wasm-boiler#readme"
+}
