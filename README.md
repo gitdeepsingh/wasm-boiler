@@ -48,3 +48,4 @@ create express local server.js. Serve the code in /public folder (check test.htm
 
 #### assemblyscript
 AssemblyScript is a TypeScript-based programming language that is optimized for, and statically compiled to, WebAssembly.
+For more complex applications, we can use Rust.
