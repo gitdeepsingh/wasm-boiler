@@ -7,7 +7,10 @@
     <script type="module">
         WebAssembly.instantiateStreaming (fetch('math.wasm')).then(obj => {
         var result = obj.instance.exports.square(10);
+        var result2 = obj.instance.exports.return20();
         document.write(result);
+        document.write("----");
+        document.write(result2);
         })
     </script>
     </head>
