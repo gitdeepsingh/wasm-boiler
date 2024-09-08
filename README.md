@@ -45,3 +45,6 @@ create express local server.js. Serve the code in /public folder (check test.htm
 #### WASM Vs JS
 1. JS is dynamically compiled. WASm is statically compiled. A JS code on browser involves parsing, AST conversion, bytecode interpretaion and machine code compilation. Whereas, for WASM, the code we are executing is compiled in advance. This improves performance.
 2. WASM: Code once deploy anywhere approach. Sandboxed coding approach, portable and secure. Smaller codebases.
+
+#### assemblyscript
+AssemblyScript is a TypeScript-based programming language that is optimized for, and statically compiled to, WebAssembly.
