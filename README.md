@@ -14,8 +14,6 @@
 #### wat to wasm [toolkit](https://github.com/WebAssembly/wabt)
 ###### [.wat: web-assembly-text format] => c o m p i l e r [ wabt ]   => wasm bytecode format [to run on browser]
 
-<img src="resources/image.png" width="200" height="300">
-
 Download: [wat2wasm](https://github.com/WebAssembly/wabt#:~:text=for%20WebAssembly%2C%20including%3A-,wat2wasm,-%3A%20translate%20from%20WebAssembly): translate from WebAssembly text format to the WebAssembly binary format.
 
 #### Compile and Build steps
